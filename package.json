@@ -2,7 +2,7 @@
   "name": "python-extension-pack-hakula",
   "displayName": "Python Extension Pack",
   "description": "An extension pack for Python development in Visual Studio Code.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "hakula",
   "author": {
     "name": "Hakula Chen",
@@ -25,10 +25,11 @@
   ],
   "extensionPack": [
     "ms-python.python",
+    "ms-python.debugpy",
     "ms-python.vscode-pylance",
+    "ms-python.black-formatter",
+    "ms-python.isort",
     "njpwerner.autodocstring",
-    "VisualStudioExptTeam.vscodeintellicode",
-    "VisualStudioExptTeam.intellicode-api-usage-examples",
     "ms-toolsai.jupyter"
   ]
 }
